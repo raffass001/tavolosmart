@@ -338,9 +338,9 @@ Quando possiamo sentirci per maggiori informazioni?`;
         }
     }
 
-    // Update WhatsApp button
+    // Update WhatsApp button with new US phone number
     if (whatsappButton) {
-        const phoneNumber = "393123456789"; // Replace with actual number
+        const phoneNumber = "16282629004"; // Updated to new US number
         const message = generateWhatsAppMessage();
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         
@@ -353,7 +353,7 @@ Quando possiamo sentirci per maggiori informazioni?`;
             // Let the default behavior handle the redirect
         });
         
-        console.log('WhatsApp button configured:', whatsappUrl);
+        console.log('WhatsApp button configured with new number:', whatsappUrl);
     }
 
     // Form field enhancements
@@ -366,7 +366,7 @@ Quando possiamo sentirci per maggiori informazioni?`;
         });
     });
 
-    // Phone number formatting (Italian format)
+    // Phone number formatting (accept international formats)
     const phoneInput = document.getElementById('phone');
     if (phoneInput) {
         phoneInput.addEventListener('input', function(e) {
@@ -592,5 +592,5 @@ Quando possiamo sentirci per maggiori informazioni?`;
     console.log('- Tech icons:', techIcons.length);
     console.log('- Service cards:', serviceCards.length);
 
-    console.log('TAVOLO SMART website loaded successfully! 🍽️✨');
+    console.log('TAVOLO SMART website loaded successfully with updated phone number! 🍽️✨');
 });
