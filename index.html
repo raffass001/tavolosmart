@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAVOLO SMART - Automatizza il tuo Ristorante dalla A alla Z</title>
+    <meta name="description" content="Pacchetto completo AI per ristoranti: Email/SMS personalizzate, Prenotazioni online, Menù QR, Voicebot e Marketing. Prova gratuita 7 giorni.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <h1 class="logo__text">TAVOLO SMART</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#servizi" class="nav__link">Servizi</a>
+                    <a href="#prezzi" class="nav__link">Prezzi</a>
+                    <a href="#come-funziona" class="nav__link">Come Funziona</a>
+                    <a href="#contatti" class="nav__link">Contatti</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">TAVOLO SMART</h1>
+                <h2 class="hero__subtitle">AUTOMATIZZA IL TUO RISTORANTE DALLA A ALLA Z</h2>
+                
+                <!-- Hero Image Section -->
+                <div class="hero-image-container">
+                    <div class="hero-image-fallback">
+                        <div class="restaurant-visual">
+                            <div class="restaurant-icon">🍽️</div>
+                            <div class="automation-text">Automazione Ristorante</div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-overlay">
+                        <div class="tech-icon tablet-icon">
+                            <i class="fas fa-tablet-alt"></i>
+                            <span>Tablet POS</span>
+                        </div>
+                        <div class="tech-icon qr-icon">
+                            <i class="fas fa-qrcode"></i>
+                            <span>Menu QR</span>
+                        </div>
+                        <div class="tech-icon screen-icon">
+                            <i class="fas fa-tv"></i>
+                            <span>Schermi Digitali</span>
+                        </div>
+                        <div class="tech-icon ai-icon">
+                            <i class="fas fa-robot"></i>
+                            <span>AI Assistant</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="hero__description">
+                    Pacchetto completo AI per ristoranti: Email/SMS personalizzate, Prenotazioni online, 
+                    Menù QR, Voicebot e Marketing. Tutto in un'unica soluzione.
+                </p>
+                <div class="hero__cta">
+                    <button class="btn btn--primary btn--lg cta-button" data-action="contact">
+                        🚀 RICHIEDI PROVA GRATUITA 7 GIORNI
+                    </button>
+                    <p class="hero__guarantee">✅ Solo €79 di installazione - Nessun rischio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servizi" class="services">
+        <div class="container">
+            <h2 class="services__title">I Nostri Servizi</h2>
+            <p class="services__subtitle">Una soluzione completa per automatizzare ogni aspetto del tuo ristorante</p>
+            
+            <div class="services__grid">
+                <div class="service-card" data-service="email-marketing">
+                    <div class="service-card__icon">📧</div>
+                    <h3 class="service-card__title">Email e SMS Marketing</h3>
+                    <p class="service-card__description">Messaggi personalizzati automatici</p>
+                    <ul class="service-card__features">
+                        <li>Offerte per chi non viene da 30 giorni</li>
+                        <li>Sconti personalizzati</li>
+                        <li>Aggiornamenti menù automatici</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-service="prenotazioni">
+                    <div class="service-card__icon">📅</div>
+                    <h3 class="service-card__title">Prenotazioni Online</h3>
+                    <p class="service-card__description">Sistema integrato di booking dal sito</p>
+                    <ul class="service-card__features">
+                        <li>Prenotazioni 24/7</li>
+                        <li>Gestione tavoli automatica</li>
+                        <li>Conferme automatiche</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-service="menu-qr">
+                    <div class="service-card__icon">📱</div>
+                    <h3 class="service-card__title">Menù QR Code</h3>
+                    <p class="service-card__description">Menù digitale contactless aggiornabile</p>
+                    <ul class="service-card__features">
+                        <li>Aggiornamenti istantanei</li>
+                        <li>Nessuna stampa necessaria</li>
+                        <li>Multilingua disponibile</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-service="voicebot">
+                    <div class="service-card__icon">🤖</div>
+                    <h3 class="service-card__title">Voicebot</h3>
+                    <p class="service-card__description">Conferma prenotazioni automatica</p>
+                    <ul class="service-card__features">
+                        <li>Chiamate automatiche</li>
+                        <li>Conferme prenotazioni</li>
+                        <li>Riduce no-show del 70%</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-service="chatbot">
+                    <div class="service-card__icon">💬</div>
+                    <h3 class="service-card__title">Chatbot Sito</h3>
+                    <p class="service-card__description">Risponde a tutte le richieste clienti 24/7</p>
+                    <ul class="service-card__features">
+                        <li>Assistenza 24/7</li>
+                        <li>Risposte immediate</li>
+                        <li>Integrazione WhatsApp</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-service="social">
+                    <div class="service-card__icon">📱</div>
+                    <h3 class="service-card__title">Gestione Social</h3>
+                    <p class="service-card__description">Canali social e richieste tutto in 1</p>
+                    <ul class="service-card__features">
+                        <li>Post automatici</li>
+                        <li>Gestione recensioni</li>
+                        <li>Monitoraggio reputation</li>
+                    </ul>
+                </div>
+
+                <div class="service-card service-card--featured" data-service="marketing">
+                    <div class="service-card__icon">🎯</div>
+                    <h3 class="service-card__title">Agenzia Marketing</h3>
+                    <p class="service-card__description">Da 2 a 10 coperti infrasettimanali garantiti</p>
+                    <ul class="service-card__features">
+                        <li>Strategia marketing personalizzata</li>
+                        <li>Campagne pubblicitarie</li>
+                        <li>Risultati garantiti o rimborso</li>
+                    </ul>
+                    <div class="service-card__badge">PIÙ RICHIESTO</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="prezzi" class="pricing">
+        <div class="container">
+            <h2 class="pricing__title">Pricing Trasparente</h2>
+            <p class="pricing__subtitle">Inizia gratis e vedi i risultati prima di pagare</p>
+            
+            <div class="pricing__card">
+                <div class="pricing__header">
+                    <h3 class="pricing__plan-title">Pacchetto Completo</h3>
+                    <div class="pricing__trial">
+                        <span class="pricing__trial-text">PROVA GRATUITA</span>
+                        <span class="pricing__trial-days">7 GIORNI</span>
+                    </div>
+                </div>
+                
+                <div class="pricing__body">
+                    <div class="pricing__setup">
+                        <span class="pricing__setup-label">Costo installazione una tantum:</span>
+                        <span class="pricing__setup-price">€79</span>
+                    </div>
+                    
+                    <div class="pricing__guarantee">
+                        <p>✅ <strong>Se decidi di continuare dopo la prova, i €79 rimangono validi e non dovrai ripagarli</strong></p>
+                        <p>✅ <strong>Garanzia soddisfatti o rimborsati</strong></p>
+                        <p>✅ <strong>Assistenza dedicata inclusa</strong></p>
+                    </div>
+                    
+                    <div class="pricing__monthly">
+                        <p class="pricing__monthly-text">Dopo la prova gratuita:</p>
+                        <p class="pricing__monthly-price">Pacchetto mensile personalizzato</p>
+                        <p class="pricing__monthly-note">Prezzo basato sulle dimensioni del locale</p>
+                    </div>
+                </div>
+                
+                <div class="pricing__footer">
+                    <button class="btn btn--primary btn--full-width btn--lg cta-button" data-action="contact">
+                        INIZIA PROVA GRATUITA ORA
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="come-funziona" class="how-it-works">
+        <div class="container">
+            <h2 class="how-it-works__title">Come Funziona</h2>
+            <p class="how-it-works__subtitle">4 semplici passaggi per automatizzare il tuo ristorante</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step__number">1</div>
+                    <div class="step__content">
+                        <h3 class="step__title">Contatto e Analisi Gratuita</h3>
+                        <p class="step__description">Ti contattiamo per capire le tue esigenze e fare un'analisi gratuita del tuo ristorante.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step__number">2</div>
+                    <div class="step__content">
+                        <h3 class="step__title">Installazione Servizio</h3>
+                        <p class="step__description">Installiamo tutti i sistemi per soli €79. Setup completo in 24 ore.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step__number">3</div>
+                    <div class="step__content">
+                        <h3 class="step__title">Prova Gratuita 7 Giorni</h3>
+                        <p class="step__description">Testi tutti i servizi gratuitamente per una settimana. Vedi i risultati in tempo reale.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step__number">4</div>
+                    <div class="step__content">
+                        <h3 class="step__title">Continua con il Pacchetto Mensile</h3>
+                        <p class="step__description">Se sei soddisfatto, continua con il nostro pacchetto mensile. I €79 iniziali rimangono validi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="requirements">
+        <div class="container">
+            <h2 class="requirements__title">Cosa Devi Fornirci</h2>
+            <p class="requirements__subtitle">Abbiamo bisogno di questi elementi per iniziare l'installazione</p>
+            
+            <div class="requirements__grid">
+                <div class="requirement-item">
+                    <div class="requirement-item__icon">🌐</div>
+                    <h3 class="requirement-item__title">Sito Web Esistente</h3>
+                    <p class="requirement-item__description">Il tuo sito web attuale per integrare i nostri servizi</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-item__icon">📱</div>
+                    <h3 class="requirement-item__title">Canali Social</h3>
+                    <p class="requirement-item__description">Accesso ai tuoi profili Facebook, Instagram, ecc.</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-item__icon">⭐</div>
+                    <h3 class="requirement-item__title">Account TripAdvisor</h3>
+                    <p class="requirement-item__description">Per gestire recensioni e reputation online</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-item__icon">🏢</div>
+                    <h3 class="requirement-item__title">Google My Business</h3>
+                    <p class="requirement-item__description">Il tuo profilo Google Business verificato</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-item__icon">💬</div>
+                    <h3 class="requirement-item__title">WhatsApp Business</h3>
+                    <p class="requirement-item__description">Numero WhatsApp Business per le comunicazioni</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contatti" class="contact">
+        <div class="container">
+            <h2 class="contact__title">Contattaci Ora</h2>
+            <p class="contact__subtitle">Siamo pronti a contattare 10 ristoratori e chiudere almeno 3 prove gratuite</p>
+            
+            <div class="contact__content">
+                <div class="contact__form-wrapper">
+                    <form class="contact__form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nome Ristorante *</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="owner" class="form-label">Nome Proprietario *</label>
+                            <input type="text" id="owner" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefono *</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="city" class="form-label">Città *</label>
+                            <input type="text" id="city" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="covers" class="form-label">Numero Coperti</label>
+                            <select id="covers" class="form-control">
+                                <option value="">Seleziona...</option>
+                                <option value="20-50">20-50 coperti</option>
+                                <option value="50-100">50-100 coperti</option>
+                                <option value="100-200">100-200 coperti</option>
+                                <option value="200+">Oltre 200 coperti</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Note aggiuntive</label>
+                            <textarea id="message" class="form-control" rows="4" placeholder="Descrivi le tue esigenze specifiche..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width btn--lg">
+                            📞 RICHIEDI CHIAMATA GRATUITA
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact__info">
+                    <div class="contact__whatsapp">
+                        <h3 class="contact__info-title">Contatto Diretto</h3>
+                        <a href="https://wa.me/393123456789?text=Ciao,%20sono%20interessato%20a%20TAVOLO%20SMART" target="_blank" class="whatsapp-button">
+                            <span class="whatsapp-button__icon">💬</span>
+                            <span class="whatsapp-button__text">Scrivici su WhatsApp</span>
+                        </a>
+                        <p class="contact__info-description">Rispondiamo entro 5 minuti durante l'orario lavorativo</p>
+                    </div>
+                    
+                    <div class="contact__guarantee">
+                        <h3 class="contact__info-title">Le Nostre Garanzie</h3>
+                        <ul class="contact__guarantee-list">
+                            <li>✅ Prova gratuita 7 giorni senza impegno</li>
+                            <li>✅ Setup in meno di 24 ore</li>
+                            <li>✅ Assistenza dedicata inclusa</li>
+                            <li>✅ Risultati garantiti o rimborso</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__brand-name">TAVOLO SMART</h3>
+                    <p class="footer__brand-tagline">Automatizza il tuo ristorante dalla A alla Z</p>
+                </div>
+                
+                <div class="footer__contact">
+                    <p class="footer__contact-item">📧 info@tavolosmart.it</p>
+                    <p class="footer__contact-item">📞 +39 312 345 6789</p>
+                    <p class="footer__contact-item">💬 WhatsApp: +39 312 345 6789</p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 TAVOLO SMART. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal hidden">
+        <div class="modal__overlay">
+            <div class="modal__content">
+                <h3 class="modal__title">Richiesta Inviata!</h3>
+                <p class="modal__text">Grazie per il tuo interesse. Ti contatteremo entro 24 ore per programmare la tua prova gratuita di 7 giorni.</p>
+                <button class="btn btn--primary modal__close">Chiudi</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
